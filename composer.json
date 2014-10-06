@@ -1,0 +1,12 @@
+{
+	"name": "webvimark/module-banner",
+	"description": "Banner module",
+	"autoload": {
+		"psr-4": {
+			"webvimark\\modules\\banner\\": ""
+		}
+	},
+	"require": {
+		"webvimark/components": "dev-master"
+	}
+}
