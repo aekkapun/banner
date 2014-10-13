@@ -82,7 +82,7 @@ class Banner extends \webvimark\components\BaseActiveRecord
 			[['active', 'sorter', 'position', 'created_at', 'updated_at'], 'integer'],
 			[['name', 'image'], 'required'],
 			[['name', 'link'], 'string', 'max' => 255],
-			[['image'], 'image', 'maxSize' => 1024*1024*5]
+			[['image'], 'image', 'maxSize' => 1024*1024*5, 'extensions'=>['gif', 'png', 'jpg', 'jpeg']],
 		];
 	}
 
